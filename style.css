@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+    background-color: #1e1b4b;
+}
+
+.invite {
+    max-width: 420px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.invite__label {
+    color: #7c3aed;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.invite__title {
+    margin: 8px 0 12px;
+    font-size: 36px;
+}
+
+.invite__details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 20px;
+    list-style: none;
+}
